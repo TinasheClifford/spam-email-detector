@@ -1,4 +1,7 @@
 # Spam Email Detector with NLP
+## Live Demo
+
+[Try the Spam Email Detector](https://spam-email-detector-2jiq4vl823c77pgw28d2te.streamlit.app/)
 
 Author: **Tinashe Clifford Makandise**
 
