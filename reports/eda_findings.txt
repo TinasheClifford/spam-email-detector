@@ -1,0 +1,7 @@
+Verified 4,547 training messages; test file not opened.
+Training spam share: 24.1%.
+Median characters: ham 1,120; spam 714.
+Leading Subject prefix: 100.0% of training messages.
+Remaining multi-row normalised groups: 122.
+EDA vectoriser fitted only for descriptions; future modelling must refit inside group-aware validation.
+Historical source-specific vocabulary and possible near-duplicates limit generalisation claims.

@@ -1,0 +1,32 @@
+{
+  "author": "Tinashe Clifford Makandise",
+  "train_file_sha256": "e6301594c155429e65a6e5ea262113b73239d4ddb1aa05c29440d41e42aa7b26",
+  "vectorizer_settings": {
+    "lowercase": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 30000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "candidates": {
+    "word_tfidf": null,
+    "word_tfidf_stopwords": "english"
+  },
+  "models": [
+    "naive_bayes",
+    "logistic_regression"
+  ],
+  "validation": {
+    "method": "StratifiedGroupKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "group_column": "group_id",
+  "primary_metric": "spam-class F1",
+  "test_policy": "Do not open until final evaluation after model selection"
+}

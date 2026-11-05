@@ -1,0 +1,3 @@
+candidate,features,fit_nonzeros,fit_density_percent,empty_validation_rows
+word_tfidf,30000,787038,0.721,0
+word_tfidf_stopwords,30000,454803,0.417,0

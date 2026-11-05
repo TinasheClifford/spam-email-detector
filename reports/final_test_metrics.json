@@ -1,0 +1,15 @@
+{
+  "test_rows": 1148,
+  "test_ham_rows": 874,
+  "test_spam_rows": 274,
+  "accuracy": 0.985191637630662,
+  "spam_precision": 0.9885931558935361,
+  "spam_recall": 0.948905109489051,
+  "spam_f1": 0.9683426443202979,
+  "average_precision": 0.9978814949874371,
+  "false_positive_rate": 0.003432494279176201,
+  "tn": 871,
+  "fp": 3,
+  "fn": 14,
+  "tp": 260
+}

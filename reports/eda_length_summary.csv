@@ -1,0 +1,5 @@
+,characters,characters,characters,characters,characters,characters,characters,characters,whitespace_tokens,whitespace_tokens,whitespace_tokens,whitespace_tokens,whitespace_tokens,whitespace_tokens,whitespace_tokens,whitespace_tokens
+,count,mean,std,min,50%,90%,99%,max,count,mean,std,min,50%,90%,99%,max
+class,,,,,,,,,,,,,,,,
+Ham,3453.0,1659.336808572256,2088.5285951421465,13.0,1120.0,3392.0,9156.8,43952.0,3453.0,350.966695626991,430.91147138065185,2.0,239.0,729.8000000000002,1889.0800000000004,8477.0
+Spam,1094.0,1359.636197440585,2340.2071070612847,18.0,714.5,2630.4,13353.849999999984,28432.0,1094.0,275.88756855575866,465.4297438400239,4.0,147.0,533.8000000000002,2376.409999999977,6129.0

@@ -1,0 +1,1 @@
+Passed: model integrity and runtime version checks; blank, punctuation-only and oversized inputs; Streamlit initial render; both sidebar examples; prediction result and score; clear button and stale-result removal. Tested with Streamlit 1.66.0 on Python 3.12. Windows launchers supplied but not executed on Windows.

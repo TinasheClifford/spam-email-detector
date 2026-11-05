@@ -1,0 +1,48 @@
+{
+  "author": "Tinashe Clifford Makandise",
+  "selected_candidate": "logistic_regression__word_tfidf_stopwords",
+  "model_name": "logistic_regression",
+  "representation": "word_tfidf_stopwords",
+  "vectorizer_settings": {
+    "lowercase": true,
+    "ngram_range": [
+      1,
+      2
+    ],
+    "min_df": 2,
+    "max_features": 30000,
+    "sublinear_tf": true,
+    "norm": "l2"
+  },
+  "stop_words": "english",
+  "classifier_settings": {
+    "C": 1.0,
+    "max_iter": 2000,
+    "random_state": 42
+  },
+  "selection_metric": "mean five-fold spam-class F1",
+  "cv_f1_mean": 0.9566816929138933,
+  "cv_f1_std": 0.008268720587505402,
+  "pooled_development_metrics": {
+    "accuracy": 0.9799868044864746,
+    "precision": 0.9970267591674926,
+    "recall": 0.9195612431444241,
+    "f1": 0.9567284831193533,
+    "average_precision": 0.99802532549667,
+    "false_positive_rate": 0.0008688097306689834,
+    "tn": 3450,
+    "fp": 3,
+    "fn": 88,
+    "tp": 1006
+  },
+  "decision_rule": "classifier.predict default; no threshold tuning",
+  "train_file_sha256": "e6301594c155429e65a6e5ea262113b73239d4ddb1aa05c29440d41e42aa7b26",
+  "feature_plan_sha256": "0093da89aeaae85c2e3eac96d30411accfd361c87c39ed9dd40ec27bd05ac0ee",
+  "versions": {
+    "python": "3.12.14",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "test_evaluated": false
+}

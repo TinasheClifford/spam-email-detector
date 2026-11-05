@@ -1,0 +1,10 @@
+{
+  "training_rows": 4547,
+  "distinct_groups": 4425,
+  "minimum_characters": 13,
+  "maximum_characters": 43952,
+  "character_p99": 9815.46,
+  "rows_above_p99": 46,
+  "rows_under_20_characters": 2,
+  "repeated_variant_groups": 122
+}
